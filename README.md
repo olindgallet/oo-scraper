@@ -11,4 +11,4 @@ that can mean one or more Conditionals being passed to a function.  Experiment a
 
 Note on scrapers
 ==========
-Ideally I think the best way to do most scrapers is to do each one from scratch; each web page is different so it's hard to do get good data using an all-purpose solution.  However, there are some tasks that I think are suitable such as getting all of a specific type of tag.  For a challenge, try modifying the provided code to get all outbound links (links not on the page domain) on a page. 
+Ideally I think the best way to do most scrapers is to do each one from scratch; each web page is different so it's hard to get good data using an all-purpose solution.  However, there are some tasks that I think are suitable such as getting all of a specific type of tag.  For a challenge, try modifying the provided code to get all outbound links (links not on the page domain) on a page. 
