@@ -15,7 +15,7 @@ class HasAnchorTextConditional implements NodeConditional{
 		$this->text = $text;
 	}
 	
-    public function accept($data){
+	public function accept($data){
 		return $data->nodeType === XML_ELEMENT_NODE && stripos($data->textContent, $this->text) !== false;
 	}
 }
