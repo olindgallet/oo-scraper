@@ -15,7 +15,7 @@ class IdNameConditional implements NodeConditional{
 		$this->id = $id;
 	}
 	
-    public function accept($data){
+	public function accept($data){
 		return $data->nodeType === XML_ELEMENT_NODE && $data->hasAttribute('id') && $data->getAttribute('id') === $this->id;
 	}
 }
